@@ -28,7 +28,7 @@ class Board extends Component {
     }
   
     render() {
-
+        console.log("test");
         const winner = calculateWinner(this.state.squares);
         let status;
         if (winner) {
