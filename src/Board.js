@@ -15,7 +15,7 @@ class Board extends Component {
         const squares = this.state.squares.slice();
         if (calculateWinner(squares) || squares[i]) {
             return;
-          }
+          } 
         squares[i] = this.state.xIsNext?'X':'0';
         this.setState({
             squares: squares,
